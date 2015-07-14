@@ -31,7 +31,7 @@ N/A
 
 ### Usage
 
-The base ZIP/directory preprocessor can be called as a drush script (see `drush help islandora_newspaper_batch_preprocess` for additional parameters):
+The base ZIP/directory preprocessor can be called as a drush script (see `drush --help islandora_newspaper_batch_preprocess` for additional parameters):
 
 `drush -v --user=admin --uri=http://localhost islandora_newspaper_batch_preprocess --type=zip --target=/path/to/archive.zip --namespace=mynamespace --parent=namespace:some_newspaper`
 
